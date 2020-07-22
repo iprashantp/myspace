@@ -16,9 +16,8 @@ public class App
         obj.printer();
         //obj.setAge(20);
         System.out.println("obj1 age: "+obj.getAge());
-        
+          
         Alien obj2 = (Alien) factoryx.getBean("alien");
         System.out.println("obj2 age: "+obj2.getAge());
-        
     }
 }
