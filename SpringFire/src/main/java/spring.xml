@@ -3,8 +3,22 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="alien" class="com.ravens.Alien" scope="prototype">
+	<bean id="alien" class="com.ravens.Alien" scope="prototype" autowire="byType">
 		<property name="age" value="21"></property>
+	</bean>
+	
+	<bean id="com" class="com.ravens.Laptop" ></bean>
+	<bean id="desktop" class="com.ravens.Desktop" primary="true"></bean>
+	
+	<!-- <bean id="alien" class="com.ravens.Alien" scope="prototype" autowire="byType">
+		<property name="age" value="21"></property>
+	</bean> 
+	<bean id="com" class="com.ravens.Laptop"></bean>
+	<bean id="desktop" class="com.ravens.Desktop"></bean>
+	-->
+	
+	<bean id="alien2" class="com.ravens.Alien2">
+		<constructor-arg value="23"></constructor-arg>
 	</bean>
 
 </beans>

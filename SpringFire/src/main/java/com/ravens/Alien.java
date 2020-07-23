@@ -3,7 +3,14 @@ package com.ravens;
 public class Alien {
 
 	private int age = 0;
+	private Computer com;
 
+	public Computer getCom() {
+		return com;
+	}
+	public void setCom(Computer com) {
+		this.com = com;
+	}
 	public int getAge() {
 		return age;
 	}
@@ -11,11 +18,14 @@ public class Alien {
 		this.age = age;
 	}
 	public Alien() {
-		// TODO Auto-generated constructor stub
 		System.out.println("created object of Alien");
 	}
 	public void printer() {
 		System.out.println("printer of Alien");
 	}
+	public void code() {
+		System.out.println("coding...");
+		com.compile();
+	}	
 
 }
