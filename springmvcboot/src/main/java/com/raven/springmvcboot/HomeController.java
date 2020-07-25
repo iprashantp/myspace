@@ -1,8 +1,12 @@
 package com.raven.springmvcboot;
 
+import java.util.List;
+import java.util.Arrays;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -70,5 +74,13 @@ public class HomeController {
 	public String addAlienUsingModelAtt(@ModelAttribute("alien") Alien a) {
 		System.out.println("in route addAlienUsingModelAtt");
 		return "result";
+	}
+	
+	@GetMapping("getAliens")
+	public String getAliens(Model m) {
+		System.out.println("in getAliens route");
+		List<Alien> aliens= Arrays.asList(new Alien(100,"prashant"),new Alien(200,"table"));
+		m.addAttribute("result",aliens);
+		return "showAliens";
 	}
 }

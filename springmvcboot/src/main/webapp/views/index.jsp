@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1> Hi Prashant</h1>
-	<form action="addAlienUsingModelAtt">
+	<form action="addAlienUsingModelAtt" method="post">
 	Enter 1st number: <input type="text" name="aid"/><br>
 	Enter 2nd number: <input type="text" name="name"/><br>
 	<input type="submit"/>
