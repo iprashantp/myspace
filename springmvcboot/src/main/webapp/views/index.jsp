@@ -8,9 +8,9 @@
 </head>
 <body>
 	<h1> Hi Prashant</h1>
-	<form action="add">
-	Enter 1st number: <input type="text" name="num1"/><br>
-	Enter 2nd number: <input type="text" name="num2"/><br>
+	<form action="addAlienUsingModelAtt">
+	Enter 1st number: <input type="text" name="aid"/><br>
+	Enter 2nd number: <input type="text" name="name"/><br>
 	<input type="submit"/>
 	</form>
 </body>
