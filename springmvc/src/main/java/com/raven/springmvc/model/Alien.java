@@ -1,5 +1,13 @@
-package com.raven.springmvcboot.model;
+package com.raven.springmvc.model;
 
+import javax.persistence.Access;
+import javax.persistence.AccessType;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="alien")
+@Access(value=AccessType.FIELD)
 public class Alien {
 	private int aid;
 	private String name;
