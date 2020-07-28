@@ -1,17 +1,22 @@
 package com.raven.springmvc.model;
 
-import javax.persistence.Access;
-import javax.persistence.AccessType;
 import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.Id;
 
 @Entity
-@Table(name="alien")
-@Access(value=AccessType.FIELD)
 public class Alien {
+	@Id
 	private int aid;
-	private String name;
+	private String aname;
 	
+	public String getAname() {
+		return aname;
+	}
+
+	public void setAname(String aname) {
+		this.aname = aname;
+	}
+
 	public int getAid() {
 		return aid;
 	}
@@ -20,17 +25,9 @@ public class Alien {
 		this.aid = aid;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	@Override
 	public String toString() {
-		return "Alien [aid=" + aid + ", name=" + name + "]";
+		return "Alien [aid=" + aid + ", aname=" + aname + "]";
 	}
 	
 

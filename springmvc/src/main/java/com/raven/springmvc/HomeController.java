@@ -76,9 +76,21 @@ public class HomeController {
 	public String addAlien(@RequestParam("num1") int aid, @RequestParam("num2") String aname, Model m) {
 		Alien a = new Alien();
 		a.setAid(aid);
-		a.setName(aname);
+		a.setAname(aname);
 		m.addAttribute("alien",a);
 		return "result";
+	}
+	
+	@GetMapping("getAlien")
+	public String getAlien(@RequestParam int aid, Model m) {
+		m.addAttribute("result", dao.getAlien(aid));
+		return "showAliens";
+	}
+	
+	@GetMapping("addAlienDAO")
+	public String addAlienDAO(@ModelAttribute("result")Alien a) {
+		dao.addAlien(a);
+		return "showAliens";
 	}
 	
 	@RequestMapping("addAlienUsingModelAtt")

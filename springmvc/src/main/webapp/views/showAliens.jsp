@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	${result}0
+	${result}
 
 </body>
 </html>

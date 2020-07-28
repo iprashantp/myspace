@@ -8,10 +8,15 @@
 </head>
 <body>
 	<h1> Hi Prashant</h1>
-	<form action="addAlienUsingModelAtt">
+	<form action="addAlienDAO">
 	Enter 1st number: <input type="text" name="aid"/><br>
-	Enter 2nd number: <input type="text" name="name"/><br>
+	Enter 2nd number: <input type="text" name="aname"/><br>
 	<input type="submit"/>
+	</form>
+	<hr>
+	<form action="getAlien" method="get">
+		Enter your id : <input type="text" name="aid">
+		<input type="submit">
 	</form>
 </body>
 </html>
