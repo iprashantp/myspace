@@ -1,6 +1,18 @@
 package com.ravens.SpringBootWebApp;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="userdetails")
 public class UserRegistration {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long UID;
 	private String UName;
 	private String EmailId;
 	private String Password;
