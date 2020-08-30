@@ -12,7 +12,7 @@ public class RegistrationController {
 	@Autowired
 	UserRepo repo;
 	
-	@RequestMapping("/regform")
+	@RequestMapping("/regform") 
 	public String register() {
 		System.out.println("in regform route");
 		return "registration";
@@ -35,7 +35,7 @@ public class RegistrationController {
 	@RequestMapping("/userDetail")
 	public String userInfo(UserRegistration reg) {
 		repo.save(reg);
-		return "registration";
+		return "operation";
 	}
 	@RequestMapping("/operation")
 	public ModelAndView operation(Long UId, String ddlFlag) {
@@ -49,7 +49,7 @@ public class RegistrationController {
 			UserRegistration reg = repo.findById(UId).orElse(new UserRegistration());
 			repo.save(reg);
 		}
-		return new ModelAndView("operation");
+		return new ModelAndView("user-details");
 	}
 	
 	private ModelAndView selectRecord(UserRegistration reg) {
