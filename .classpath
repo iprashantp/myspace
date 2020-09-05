@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Java/GeeksForGeeks/src"/>
+	<classpathentry kind="src" path="Java/HashTable/src"/>
+	<classpathentry kind="src" path="Java/JavaInterviewPractice/src"/>
+	<classpathentry kind="src" path="Java/wikianalyzer/src/main/java"/>
+	<classpathentry kind="src" path="Java/wikianalyzer/src/test/java"/>
+	<classpathentry kind="src" path="JavaConcepts/src"/>
+	<classpathentry kind="src" path="SpringFire/src/main/java"/>
+	<classpathentry kind="src" path="SpringFire/src/test/java"/>
+	<classpathentry kind="output" path="Java/GeeksForGeeks/bin"/>
+</classpath>

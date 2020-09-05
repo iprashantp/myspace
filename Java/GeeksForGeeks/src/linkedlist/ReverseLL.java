@@ -11,8 +11,8 @@ public class ReverseLL {
 		head.AddToList(head, 5);
 		head.AddToList(head, 6);
 
-		// ReverseList();
-		 ReverseListReccursive(head);
+		 ReverseList();
+		// ReverseListReccursive(head);
 
 		if (head != null)
 			PrintList();
