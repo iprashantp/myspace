@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff54226c-c5e1-4e87-86ae-07caed69a945" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/DaemonThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,15 +24,47 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1f0Ul4vaeefjtWlRTSUreGVMJYA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Application.DaemonThreadDemo">
+  <component name="RunManager" selected="Application.DefaultMethods">
+    <configuration name="Abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.Abstraction" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.Client" />
+      <module name="JavaConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DaemonThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.DaemonThreadDemo" />
       <module name="JavaConcepts" />
@@ -59,38 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterThreadCommunication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.InterThreadCommunication" />
+    <configuration name="DefaultMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.DefaultMethods" />
       <module name="JavaConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.RunnableDemo" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.SynchronizedDemo" />
-      <module name="JavaConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="oops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,22 +105,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InterThreadCommunication" />
-      <item itemvalue="Application.RunnableDemo" />
-      <item itemvalue="Application.SynchronizedDemo" />
-      <item itemvalue="Application.DeadlockDemo" />
+      <item itemvalue="Application.Abstraction" />
+      <item itemvalue="Application.Client" />
       <item itemvalue="Application.DaemonThreadDemo" />
+      <item itemvalue="Application.DeadlockDemo" />
+      <item itemvalue="Application.DefaultMethods" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefaultMethods" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Abstraction" />
         <item itemvalue="Application.DaemonThreadDemo" />
         <item itemvalue="Application.DeadlockDemo" />
-        <item itemvalue="Application.InterThreadCommunication" />
-        <item itemvalue="Application.SynchronizedDemo" />
-        <item itemvalue="Application.RunnableDemo" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -129,21 +136,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="272" key="GridCell.Tab.0.bottom" timestamp="1595405060809">
+    <state x="653" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1599280848826">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="272" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1595405060809" />
-    <state width="1638" height="272" key="GridCell.Tab.0.center" timestamp="1595405060809">
+    <state x="653" y="250" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1599280848826" />
+    <state x="-1027" y="250" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1598449313738" />
+    <state width="1638" height="272" key="GridCell.Tab.0.bottom" timestamp="1599280904245">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="272" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1595405060809" />
-    <state width="1638" height="272" key="GridCell.Tab.0.left" timestamp="1595405060808">
+    <state width="1638" height="272" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599280904245" />
+    <state width="1638" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1598449591566" />
+    <state width="1638" height="272" key="GridCell.Tab.0.center" timestamp="1599280904244">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="272" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1595405060808" />
-    <state width="1638" height="272" key="GridCell.Tab.0.right" timestamp="1595405060809">
+    <state width="1638" height="272" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599280904244" />
+    <state width="1638" height="272" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1598449591549" />
+    <state width="1638" height="272" key="GridCell.Tab.0.left" timestamp="1599280904244">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="272" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1595405060809" />
+    <state width="1638" height="272" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599280904244" />
+    <state width="1638" height="272" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1598449591535" />
+    <state width="1638" height="272" key="GridCell.Tab.0.right" timestamp="1599280904245">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="272" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599280904245" />
+    <state width="1638" height="272" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1598449591552" />
+    <state x="278" y="156" key="new project wizard" timestamp="1595411154833">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="278" y="156" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1595411154833" />
   </component>
 </project>
