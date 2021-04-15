@@ -12,6 +12,25 @@ public class ZigZagArrayTraversal {
                 {21, 22, 23, 24}
         };
         obj.zigzagTraverse(arr);
+        arr = new int[][]{
+                {1},
+                {5},
+                {9},
+                {13},
+                {17},
+                {21}
+        };
+        obj.zigzagTraverse(arr);
+        arr = new int[][]{
+                {21, 22, 23, 24, 25, 26}
+        };
+        obj.zigzagTraverse(arr);
+
+        arr = new int[][]{
+                {21, 22, 23, 24, 25, 26},
+                {2, 3, 4, 5, 6, 7}
+        };
+        obj.zigzagTraverse(arr);
     }
 
     private void zigzagTraverse(int[][] arr) {
